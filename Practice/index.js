@@ -206,7 +206,7 @@ const express = require("express");
 const fs = require("fs");
 const path = require("path");
 
-const app = express();
+const app = express();// in built middle ware
 app.use(express.json());
 
 const PORT = 8000;
