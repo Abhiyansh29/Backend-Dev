@@ -44,3 +44,7 @@ app.post("/students/register", async (req, res) => {
 app.listen(3000, () =>
     console.log("Server running at http://localhost:3000")
 );
+
+// run node server.js
+// localhost:5000
+
