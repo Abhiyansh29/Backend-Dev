@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1,
+    "name": "Aarav Sharma",
+    "email": "aarav1@example.com",
+    "age": 22,
+    "branch": "CSE"
+  },
+  {
+    "id": 2,
+    "name": "Ananya Verma",
+    "email": "ananya1@example.com",
+    "age": 21,
+    "branch": "IT"
+  },
+  {
+    "id": 3,
+    "name": "Rohan Gupta",
+    "email": "rohan1@example.com",
+    "age": 23,
+    "branch": "ECE"
+  },
+  {
+    "id": 4,
+    "name": "Priya Singh",
+    "email": "priya1@example.com",
+    "age": 22,
+    "branch": "CSE"
+  },
+
+  {
+    "id": 5,
+    "name": "Aarav Sharma",
+    "email": "aarav2@example.com",
+    "age": 24,
+    "branch": "ME"
+  },
+  {
+    "id": 6,
+    "name": "Sneha Patel",
+    "email": "sneha1@example.com",
+    "age": 20,
+    "branch": "CSE"
+  },
+  {
+    "id": 7,
+    "name": "Arjun Mehta",
+    "email": "arjun1@example.com",
+    "age": 23,
+    "branch": "IT"
+  },
+  {
+    "id": 8,
+    "name": "Aashna Kapoor",
+    "email": "aashna1@example.com",
+    "age": 22,
+    "branch": "CSE"
+  },
+
+  {
+    "id": 9,
+    "name": "Rohan Gupta",
+    "email": "rohan2@example.com",
+    "age": 25,
+    "branch": "EEE"
+  },
+  {
+    "id": 10,
+    "name": "Ishita Roy",
+    "email": "ishita1@example.com",
+    "age": 21,
+    "branch": "CSE"
+  },
+
+  {
+    "id": 11,
+    "name": "Priya Singh",
+    "email": "priya2@example.com",
+    "age": 23,
+    "branch": "IT"
+  },
+  {
+    "id": 12,
+    "name": "Sneha Patel",
+    "email": "sneha2@example.com",
+    "age": 22,
+    "branch": "ECE"
+  },
+
+  {
+    "id": 13,
+    "name": "Kabir Khan",
+    "email": "kabir1@example.com",
+    "age": 24,
+    "branch": "ME"
+  },
+  {
+    "id": 14,
+    "name": "Kabir Khan",
+    "email": "kabir2@example.com",
+    "age": 26,
+    "branch": "CSE"
+  },
+
+  {
+    "id": 15,
+    "name": "Ananya Verma",
+    "email": "ananya2@example.com",
+    "age": 22,
+    "branch": "EEE"
+  }
+]
