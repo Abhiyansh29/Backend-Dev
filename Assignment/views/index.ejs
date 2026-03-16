@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Books List</title>
+    <style>
+        table { width: 100%; border-collapse: collapse; }
+        th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+        th { background-color: #f2f2f2; }
+    </style>
+</head>
+<body>
+    <h1>Books List</h1>
+    
+    <% if (pagination) { %>
+        <p>
+            Showing <%= pagination.results.length %> of <%= pagination.totalEntry %> books.
+            <% if (pagination.previous) { %> <a href="?page=<%= pagination.previous.page %>&limit=<%= pagination.previous.limit %>">Previous</a> <% } %>
+            <% if (pagination.next) { %> <a href="?page=<%= pagination.next.page %>&limit=<%= pagination.next.limit %>">Next</a> <% } %>
+        </p>
+    <% } %>
+
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Title</th>
+                <th>Author</th>
+                <th>Year</th>
+            </tr>
+        </thead>
+        <tbody>
+            <% books.forEach(book => { %>
+                <tr>
+                    <td><%= book.id %></td>
+                    <td><%= book.title %></td>
+                    <td><%= book.author %></td>
+                    <td><%= book.year %></td>
+                </tr>
+            <% }); %>
+        </tbody>
+    </table>
+</body>
+</html>

@@ -1,0 +1,52 @@
+{
+  "books": [
+    {
+      "id": 1,
+      "title": "Book One",
+      "author": "Author A",
+      "year": 2020
+    },
+    {
+      "id": 2,
+      "title": "Book Two",
+      "author": "Author B",
+      "year": 2021
+    },
+    {
+      "id": 3,
+      "title": "Book Three",
+      "author": "Author A",
+      "year": 2022
+    },
+    {
+      "id": 4,
+      "title": "Book Four",
+      "author": "Author C",
+      "year": 2020
+    },
+    {
+      "id": 5,
+      "title": "Book Five",
+      "author": "Author B",
+      "year": 2023
+    }
+  ],
+  "authors": [
+    {
+      "id": 1,
+      "name": "Author A"
+    },
+    {
+      "id": 2,
+      "name": "Author B"
+    },
+    {
+      "id": 3,
+      "name": "Author C"
+    },
+    {
+      "id": 4,
+      "name": "New Author Persistent"
+    }
+  ]
+}
